@@ -12,8 +12,7 @@ module.exports = defineConfig({
 		setupNodeEvents(on, config) {
 			require("cypress-mochawesome-reporter/plugin")(on)
 			// implement node event listeners here
-		},
-		experimentalStudio: true
+		}
 	},
 	video: false,
 	defaultCommandTimeout: 60000
