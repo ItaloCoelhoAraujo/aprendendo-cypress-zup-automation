@@ -1,0 +1,16 @@
+{
+	"name": "aprendendo-cypress",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"cypress": "npx cypress open",
+		"test": "npx cypress run --spec cypress/e2e/"
+	},
+	"author": "Italo Coelho Araujo <italoftk15@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^12.8.1",
+		"cypress-mochawesome-reporter": "^3.3.0"
+	}
+}
