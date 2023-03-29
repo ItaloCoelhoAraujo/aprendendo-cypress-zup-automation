@@ -12,7 +12,7 @@ Este é um **Projeto Maven** e foi criado conforme requisito abaixo, utilizando 
 
 Os teste foram validados no **Google Chrome**.
 
-## Requisito
+## Requisitos
 
 Utilizando as ferramentas que preferir crie um teste automatizado que faça o fluxo de ponta a ponta de um cliente que:
 
