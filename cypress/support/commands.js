@@ -23,7 +23,7 @@ Cypress.Commands.add("checarResultadoBusca", (textoParaChecar) => {
 })
 
 Cypress.Commands.add("selecionarProduto", (numeroNaLista) => {
-	cy.get('.s-result-list [data-index="' + (numeroNaLista + 1) + '"] span')
+	cy.get('[data-component-type="s-search-results"] [data-index="' + (numeroNaLista + 2) + '"] a')
 		.first()
 		.should("be.visible")
 		.click()
