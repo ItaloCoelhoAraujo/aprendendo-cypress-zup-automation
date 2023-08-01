@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"cypress": "npx cypress open",
-		"test": "npx cypress run --spec cypress/e2e/"
+		"tests": "npx cypress run --spec cypress/e2e/",
+		"teste-carrinho": "npx cypress run --spec cypress/e2e/adicionar-ao-carrinho.cy.js",
+		"teste-busca": "npx cypress run --spec cypress/e2e/busca-de-produto.cy.js"
 	},
 	"author": "Italo Coelho Araujo <italoftk15@gmail.com>",
 	"license": "ISC",
