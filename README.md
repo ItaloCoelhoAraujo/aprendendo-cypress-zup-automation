@@ -11,7 +11,7 @@ Este é um **Projeto Cypress** e foi criado conforme requisito abaixo, utilizand
 **Avisos Importantes:**
 
 -   Os teste foram validados no **Google Chrome**.
--   Os testes foram feito no site da Amazon.
+-   Os testes foram feito no site da Amazon. Por conta disso, as vezes eles conseguem detectar que os testes estão sendo executados com o Cypress e são bloqueados. Nesse caso, é necessário rodar os testes novamente.
 -   Para rodar os testes usando o aplicativo do Cypress, deve ser utilizado o comando "npm run cypress", se estiver usando npm, ou "yarn cypress", se estiver usando yarn, no terminal.
 -   Para rodar os testes em modo headless e gerar os relatórios, deve ser utilizado o comando "npm run tests", se estiver usando npm, ou "yarn tests", se estiver usando yarn, no terminal.
 -   Para rodar os testes individualmente, deve ser utilizado os comandos "npm run teste-carrinho" ou "npm run teste-busca", se estiver usando npm, ou "yarn teste-carrinho" ou "yarn teste-busca", se estiver usando yarn, no terminal.
