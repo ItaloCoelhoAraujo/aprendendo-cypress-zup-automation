@@ -25,7 +25,7 @@ describe("Carrinho", () => {
 				.then(($titulo) => {
 					cy.adicionarAoCarrinho()
 					cy.acessarCarrinho()
-					cy.contains($titulo.trim().slice(0, 30)).should("exist")
+					cy.contains($titulo.trim().slice(0, 30), { timeout: 10000 }).should("exist")
 				})
 		})
 
@@ -38,6 +38,6 @@ describe("Carrinho", () => {
 	})
 
 	afterEach(() => {
-		cy.screenshot()
+		cy.screenshot({ capture: "viewport" })
 	})
 })
