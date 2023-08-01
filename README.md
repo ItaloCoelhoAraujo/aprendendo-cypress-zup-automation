@@ -9,7 +9,8 @@ Este é um **Projeto Cypress** e foi criado conforme requisito abaixo, utilizand
 
 **Avisos Importantes:**
 
-Os teste foram validados no **Google Chrome**.
+-   Os teste foram validados no **Google Chrome**.
+-   Os testes foram feito no site da Amazon. Devido a isso, as vezes o Anti-Bot detecta o Cypress e bloqueia os testes, portanto alguns deles vão dar certo e outros não. Para saber o motivo deles falharem, na pasta "/cypress/screenshots" vai ter 2 pastas com os prints do momento que houve a falha e também a tela de resultado final em caso de teste bem sucedido.
 
 ## Requisitos
 
@@ -42,9 +43,6 @@ Para a funcionalidade de busca de produto, eu criei 3 cenários de teste:
 -   Cenário: Não busca um produto inválido
 -   Cenário: Não busca por produto com o campo de pesquisa vazio
 
-Para a funcionalidade do carrinho eu criei 2 cenários:
+Para a funcionalidade do carrinho eu criei um cenários:
 
 -   Cenário: Carrinho - adicionar produto
--   Cenário: Carrinho - remover produto
-
-O cenário de remover produto pode fazer parte de uma suite de testes mais específica que eu chamei de "alterar lista do carrinho".
