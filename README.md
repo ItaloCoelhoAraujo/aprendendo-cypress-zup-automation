@@ -1,12 +1,11 @@
 # Desafio ZUP Automação Web
 
-Este é um **Projeto Maven** e foi criado conforme requisito abaixo, utilizando os seguintes recursos:
+Este é um **Projeto Cypress** e foi criado conforme requisito abaixo, utilizando os seguintes recursos:
 
 -   Javascript;
 -   NPM;
 -   Cypress;
 -   Padrão robot;
--   Pluguins p/ relatórios automatizados;
 
 **Avisos Importantes:**
 
