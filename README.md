@@ -6,11 +6,15 @@ Este é um **Projeto Cypress** e foi criado conforme requisito abaixo, utilizand
 -   NPM;
 -   Cypress;
 -   Padrão robot;
+-   Pluguins p/ relatórios automatizados;
 
 **Avisos Importantes:**
 
 -   Os teste foram validados no **Google Chrome**.
--   Os testes foram feito no site da Amazon. Devido a isso, as vezes o Anti-Bot detecta o Cypress e bloqueia os testes, portanto alguns deles vão dar certo e outros não. Para saber o motivo deles falharem, na pasta "/cypress/screenshots" vai ter 2 pastas com os prints do momento que houve a falha e também a tela de resultado final em caso de teste bem sucedido.
+-   Os testes foram feito no site da Amazon.
+-   Para rodar os testes usando o aplicativo do Cypress, deve ser utilizado o comando "npm run cypress", se estiver usando npm, ou "yarn cypress", se estiver usando yarn, no terminal.
+-   Para rodar os testes em modo headless e gerar os relatórios, deve ser utilizado o comando "npm run tests", se estiver usando npm, ou "yarn tests", se estiver usando yarn, no terminal.
+-   Para rodar os testes individualmente, deve ser utilizado os comandos "npm run teste-carrinho" ou "npm run teste-busca", se estiver usando npm, ou "yarn teste-carrinho" ou "yarn teste-busca", se estiver usando yarn, no terminal.
 
 ## Requisitos
 
