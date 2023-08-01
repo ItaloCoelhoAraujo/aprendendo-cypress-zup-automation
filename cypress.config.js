@@ -15,5 +15,6 @@ module.exports = defineConfig({
 		}
 	},
 	video: false,
-	defaultCommandTimeout: 60000
+	defaultCommandTimeout: 60000,
+	experimentalModifyObstructiveThirdPartyCode: true
 })
